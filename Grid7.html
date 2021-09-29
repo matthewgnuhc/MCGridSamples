@@ -62,13 +62,24 @@
     </nav>
 
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Grid Seven</h1>
+        <div class="container-fluid h-100 minHeight">
+            <h1>Grid Seven</h1>
+            <div class="row row-cols-1 gy-1 h-100">
+                <div class="col col-md-12">
+                    <div class="bg-secondary text-light h-100">COL ONE</div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="bg-secondary text-light h-100">COL THREE</div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="bg-dark text-light h-100">COL TWO - BUT ORDERED LAST</div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
         <div class="container-fluid text-center">
-            <span class="text-muted">&copy;&nbsp;Matthew Chung 2021.</span>
+            <span class="text-muted">&copy;&nbsp;Matthew Chung 2021</span>
         </div>
     </footer>
     <!-- Bootstrap JS -->
