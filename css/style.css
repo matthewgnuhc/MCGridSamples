@@ -2,33 +2,41 @@ main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
 }
-main>.container-fluid{
+
+main>.container-fluid {
     padding: 60px 15px 0;
     margin-bottom: 5rem
 }
+
 .sticky-nav {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
 }
-.minHeight{
+
+.minHeight {
     min-height: 80vh
 }
-.heroText{
-    font-family:  modesto-open-shadow, sans-serif;
-    font-family: 'Rampart One', sans-serif;
+
+.heroText {
+    font-family: 'Fredoka One',
+    cursive;
     font-weight: 500;
     font-style: normal;
     text-transform: uppercase;
     color: rgb(222, 46, 238)
 }
+.bodytext {
+    font-family: 'Roboto',
+    sans-serif;
+}
 
-.bgImage{
-    background-image: url("/img/MicrosoftTeams-image.png");
+.bgImage {
+    background-image: url("/img/sun-g475f7bdcc_1280.jpg");
     background-repeat: none;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
 
+}
